@@ -1,3 +1,6 @@
+#A for loop in R to do an ANOVA or Kruskall-Wallis depending 
+#on the normality (shapiro.test) and homocedasticity (bartlett.test)
+
 #Banco de dados - armazenar em um dataframe chamado "spp"
 spp <- read.csv("arquivo.csv", h=T, sep=";")
 #Anexar "spp"
