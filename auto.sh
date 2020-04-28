@@ -1,7 +1,7 @@
 #! /bin/bash
 
 # Criando as pastas
-echo "Digite o nome do cliente:"
+echo "Digite o nome do projeto:"
 read name
 echo "Nome: $name"
 
